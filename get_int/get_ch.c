@@ -24,7 +24,7 @@ static char buf[BUFSIZE];
 static int bufp;
 
 int get_ch(void) {
-	printf("\n num index: ");
+	printf("please enter the number: \n");
 	return (bufp > 0) ? buf[--bufp] : getchar();
 }
 
